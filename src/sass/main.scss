@@ -2,6 +2,15 @@
 
 .logo {
   width: 350px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  opacity: .5;
+}
+
+.splash_container {
+   position: relative;
 }
 
 .old-code-spacer {
