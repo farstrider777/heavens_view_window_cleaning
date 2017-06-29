@@ -9,6 +9,14 @@
   opacity: .5;
 }
 
+.switch_background {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  z-index: 2;
+  opacity: .5;
+}
+
 .splash_container {
    position: relative;
 }

@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body ng-app="app">
-    <img class="logo" src="../images/logo_name.png">
-    <div class="splash_container">
-      <img src="../images/background.jpg">
+    <div ng-controller="GreetController">
+      <img class="logo" src="../images/logo_name.png">
+      <button class="switch_background" id="switch_background">Switch Background</button>
+      <div id="splash_container" class="splash_container">
+        <img src="../images/background.jpg">
+      </div>
     </div>
     <script src="js/bundle.js"></script>
   </body>
