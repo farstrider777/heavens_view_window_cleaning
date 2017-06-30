@@ -1,21 +1,15 @@
 function GreetController ($scope) {
 
+  var counter = Math.floor(Math.random() * 3) + 1 ;
 
-  var container = document.getElementById('splash_container');
-  var counter = Math.floor(Math.random() * 5) + 1 ;
-   console.log(counter)
-   container.innerHTML = `<img src="../images/background${counter}.jpg">`
-   function flip(){
-     counter++;
-     if(counter > 4){
-       counter = 1
-     }
-     container.innerHTML = `<img src="../images/background${counter}.jpg">`
-     console.log("activate button")
-   }
+   $scope.place = `../images/background${counter}.jpg`
 
    $scope.switch = function() {
-     flip()
+     counter++;
+     if(counter > 3){
+       counter = 1
+     }
+     $scope.place = `../images/background${counter}.jpg`
    }
  }
 

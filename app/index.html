@@ -11,9 +11,10 @@
     <div ng-controller="GreetController">
       <img class="logo" src="../images/logo_name.png">
       <button class="switch_background" ng-click="switch()">Switch Background</button>
-      <div id="splash_container" class="splash_container">
-        <img src="../images/background1.jpg">
+      <div class="splash_container">
+        <img src="{{place}}">
       </div>
+
     </div>
     <script src="js/bundle.js"></script>
   </body>
