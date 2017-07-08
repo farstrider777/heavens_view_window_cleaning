@@ -10,15 +10,21 @@ div {
 
 .logo {
   width: 350px;
-  position: absolute;
+  //position: absolute;
+  position: fixed;
   top: 10px;
   left: 10px;
   z-index: 2;
   opacity: .7;
 }
 
+.spacer1 {
+  height: 265px;
+}
+
 .switch_background {
-  position: absolute;
+  //position: absolute;
+  position: fixed;
   top: 230px;
   left: 100px;
   z-index: 2;
@@ -26,7 +32,8 @@ div {
 }
 
 .phone-number {
-  position: absolute;
+  position: fixed;
+  //position: absolute;
   top: 60px;
   left: 470px;
   z-index: 2;
@@ -40,14 +47,15 @@ div {
 }
 
 @keyframes menu {
-    from {position: absolute;
+    from {//position: absolute;
       left: 870px;}
-    to {  position: absolute;
+    to {  //position: absolute;
       left: 470px;}
 }
 
 .free-estimates {
-  position: absolute;
+  position: fixed;
+  //position: absolute;
   top: 125px;
   left: 490px;
   z-index: 2;
@@ -60,14 +68,15 @@ div {
 }
 
 @keyframes menu1 {
-    from {position: absolute;
+    from {//position: absolute;
       left: 870px;}
-    to {  position: absolute;
+    to {  //position: absolute;
       left: 490px;}
 }
 
 .saying {
-  position: absolute;
+  //position: absolute;
+  position: fixed;
   top: 185px;
   left: 485px;
   z-index: 2;
@@ -80,14 +89,15 @@ div {
 }
 
 @keyframes menu2 {
-    from {position: absolute;
+    from {//position: absolute;
       left: 870px;}
-    to {  position: absolute;
+    to { // position: absolute;
       left: 485px;}
 }
 
 menu {
-  position: absolute;
+  position: fixed;
+  //position: absolute;
   top: 10px;
   left: 372px;
   z-index: 2;
@@ -112,9 +122,12 @@ menu {
 }
 
 .splash_container {
-   position: relative;
+   //position: relative;
+   position: fixed;
+   width: 100%;
    height: 265px;
    overflow: hidden;
+   border-radius: 0px;
 }
 
 .splash_image {
@@ -123,7 +136,8 @@ menu {
 
 @media screen and (max-width: 1088px) {
     menu {
-      position: absolute;
+      //position: absolute;
+      position: fixed;
       top: 10px;
       left: 372px;
       z-index: 2;
@@ -132,7 +146,8 @@ menu {
     }
 
     .phone-number {
-      position: absolute;
+      //position: absolute;
+      position: fixed;
       top: 10px;
       left: 505px;
       z-index: 2;
@@ -143,7 +158,8 @@ menu {
     }
 
     .free-estimates {
-      position: absolute;
+      //position: absolute;
+      position: fixed;
       top: 70px;
       left: 525px;
       z-index: 2;
@@ -154,7 +170,8 @@ menu {
     }
 
     .saying {
-      position: absolute;
+      //position: absolute;
+      position: fixed;
       top: 125px;
       left: 520px;
       z-index: 2;
@@ -167,7 +184,8 @@ menu {
 
 @media screen and (max-width: 720px) {
   .phone-number {
-    position: absolute;
+    position: fixed;
+    //position: absolute;
     top: 270px;
     left: 75px;
     z-index: 2;
@@ -178,7 +196,8 @@ menu {
   }
 
   .free-estimates {
-    position: absolute;
+    position: fixed;
+    //position: absolute;
     top: 330px;
     left: 95px;
     z-index: 2;
@@ -189,7 +208,8 @@ menu {
   }
 
   .saying {
-    position: absolute;
+    position: fixed;
+    //position: absolute;
     top: 390px;
     left: 90px;
     z-index: 2;
@@ -203,7 +223,8 @@ menu {
 
 @media screen and (max-width: 535px){
   .phone-number {
-    position: absolute;
+    //position: absolute;
+    position: fixed;
     top: 250px;
     left: 150px;
     z-index: 2;
@@ -214,7 +235,8 @@ menu {
   }
 
   .free-estimates {
-    position: absolute;
+    //position: absolute;
+    position: fixed;
     top: 313px;
     left: 170px;
     z-index: 2;
@@ -225,7 +247,8 @@ menu {
   }
 
   .saying {
-    position: absolute;
+    //position: absolute;
+    position: fixed;
     top: 370px;
     left: 165px;
     z-index: 2;
@@ -236,7 +259,8 @@ menu {
   }
 
   menu {
-    position: absolute;
+    //position: absolute;
+    position: fixed;
     top: 250px;
     left: 0px;
     z-index: 2;
@@ -248,9 +272,11 @@ menu {
     opacity: 0;
   }
   .splash_container {
-     position: relative;
+     position: fixed;
+     //position: relative;
      height: 240px;
      overflow: hidden;
+     z-index: 1
   }
 }
 
