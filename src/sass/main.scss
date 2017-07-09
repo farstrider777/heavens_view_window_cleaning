@@ -6,6 +6,9 @@ body {
 
 div {
   border-radius: 7px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  //font-weight: bold;
 }
 
 .logo {
@@ -19,8 +22,18 @@ div {
 }
 
 .spacer1 {
-  height: 265px;
+  height: 235px;
 }
+////////////////////////////// old code for switch background button structure still in html and js//////////////
+// .switch_background {
+//   //position: absolute;
+//   position: fixed;
+//   top: 230px;
+//   left: 100px;
+//   z-index: 2;
+//   opacity: .6;
+// }
+////////////////////////////////////////////////////////////////////////////////////////
 
 .switch_background {
   //position: absolute;
@@ -28,19 +41,24 @@ div {
   top: 230px;
   left: 100px;
   z-index: 2;
-  opacity: .6;
+  opacity: 0;
 }
 
 .phone-number {
   position: fixed;
+  font-weight: bold;
   //position: absolute;
   top: 60px;
-  left: 470px;
+  left: 465px;
   z-index: 2;
-  opacity: .7;
-  font-size: 30px;
-  background: white;
+  //opacity: .7;
+  font-size: 35px;
+  font-family: 'Courgette', cursive;
+  //background: #398AF6;
+  color: white;
   padding: 4px;
+  text-shadow: 3px 3px #398AF6;
+  //box-shadow: 10px 10px 5px #398AF6;
 
   animation-name: menu;
   animation-duration: 2s;
@@ -50,7 +68,7 @@ div {
     from {//position: absolute;
       left: 870px;}
     to {  //position: absolute;
-      left: 470px;}
+      left: 465px;}
 }
 
 .free-estimates {
@@ -59,9 +77,12 @@ div {
   top: 125px;
   left: 490px;
   z-index: 2;
-  opacity: .7;
+  //opacity: .7;
   font-size: 25px;
-  background: white;
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  //background: white;
   padding: 4px;
   animation-name: menu1;
   animation-duration: 3s;
@@ -80,9 +101,12 @@ div {
   top: 185px;
   left: 485px;
   z-index: 2;
-  opacity: .7;
+  //opacity: .7;
   font-size: 20px;
-  background: white;
+  //background: white;
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
   padding: 4px;
   animation-name: menu2;
   animation-duration: 4s;
@@ -125,7 +149,7 @@ menu {
    //position: relative;
    position: fixed;
    width: 100%;
-   height: 265px;
+   height: 235px;
    overflow: hidden;
    border-radius: 0px;
 }
@@ -134,7 +158,105 @@ menu {
   width: 100%;
 }
 
+.city {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 55px;
+  left: 750px;
+}
+
+.city1 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 80px;
+  left: 750px;
+}
+
+.city2 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 105px;
+  left: 750px;
+}
+
+.city3 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 130px;
+  left: 750px;
+}
+
+.city4 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 155px;
+  left: 750px;
+}
+
+.city5 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 180px;
+  left: 750px;
+}
+
+.city6 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px #398AF6;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 205px;
+  left: 750px;
+}
+
 @media screen and (max-width: 1088px) {
+    .city {
+      top: 25px;
+    }
+
+    .city1 {
+      top: 50px;
+    }
+
+    .city2 {
+      top: 75px;
+    }
+
+    .city3 {
+      top: 100px;
+    }
+
+    .city4 {
+      top: 125px;
+    }
+
+    .city5 {
+      top: 150px;
+    }
+
+    .city6 {
+      top: 175px;
+    }
+
     menu {
       //position: absolute;
       position: fixed;
@@ -151,10 +273,19 @@ menu {
       top: 10px;
       left: 505px;
       z-index: 2;
-      opacity: .7;
+      //opacity: .7;
       font-size: 30px;
-      background: white;
+      //background: white;
       padding: 4px;
+      animation-name: menuA;
+      animation-duration: 2s;
+    }
+
+    @keyframes menuA {
+        // from {//position: absolute;
+        //   left: 870px;}
+        // to {  //position: absolute;
+        //   left: 470px;}
     }
 
     .free-estimates {
@@ -163,10 +294,19 @@ menu {
       top: 70px;
       left: 525px;
       z-index: 2;
-      opacity: .7;
+      //opacity: .7;
       font-size: 25px;
-      background: white;
+      //background: white;
       padding: 4px;
+      animation-name: menu1A;
+      animation-duration: 2s;
+    }
+
+    @keyframes menu1A {
+        // from {//position: absolute;
+        //   left: 870px;}
+        // to {  //position: absolute;
+        //   left: 470px;}
     }
 
     .saying {
@@ -175,86 +315,213 @@ menu {
       top: 125px;
       left: 520px;
       z-index: 2;
-      opacity: .7;
+      //opacity: .7;
       font-size: 20px;
-      background: white;
+      //background: white;
       padding: 4px;
+      animation-name: menu2A;
+      animation-duration: 2s;
+    }
+
+    @keyframes menuA {
+        // from {//position: absolute;
+        //   left: 870px;}
+        // to {  //position: absolute;
+        //   left: 470px;}
     }
 }
 
+@media screen and (max-width: 850px) {
+  .city {
+    top: 160px;
+    left: 525px;
+  }
+
+  .city1 {
+    top: 220px;
+    left: 570px;
+  }
+
+  .city2 {
+    top: 180px;
+    left: 525px;
+  }
+
+  .city3 {
+    top: 180px;
+    left: 630px;
+  }
+
+  .city4 {
+    top: 200px;
+    left: 525px;
+  }
+
+  .city5 {
+    top: 200px;
+    left: 630px;
+  }
+
+  .city6 {
+    top: 160px;
+    left: 630px;
+  }
+
+}
+
 @media screen and (max-width: 720px) {
+  .spacer1 {
+    height: 410px;
+  }
+
+  .city {
+    top: 260px;
+    left: 325px;
+  }
+
+  .city1 {
+    top: 320px;
+    left: 370px;
+  }
+
+  .city2 {
+    top: 280px;
+    left: 325px;
+  }
+
+  .city3 {
+    top: 280px;
+    left: 430px;
+  }
+
+  .city4 {
+    top: 300px;
+    left: 325px;
+  }
+
+  .city5 {
+    top: 300px;
+    left: 430px;
+  }
+
+  .city6 {
+    top: 260px;
+    left: 430px;
+  }
+
   .phone-number {
     position: fixed;
     //position: absolute;
-    top: 270px;
+    top: 230px;
     left: 75px;
     z-index: 2;
-    opacity: .7;
+    //opacity: .7;
     font-size: 30px;
-    background: white;
+    //background: white;
     padding: 4px;
   }
 
   .free-estimates {
     position: fixed;
     //position: absolute;
-    top: 330px;
+    top: 290px;
     left: 95px;
     z-index: 2;
-    opacity: .7;
+    //opacity: .7;
     font-size: 25px;
-    background: white;
+    //background: white;
     padding: 4px;
   }
 
   .saying {
     position: fixed;
     //position: absolute;
-    top: 390px;
+    top: 350px;
     left: 90px;
     z-index: 2;
-    opacity: .7;
+    //opacity: .7;
     font-size: 20px;
-    background: white;
+    //background: white;
     padding: 4px;
   }
 }
 
 
 @media screen and (max-width: 535px){
+
+  .spacer1 {
+    height: 485px;
+  }
+
+  .city {
+    top: 390px;
+    left: 165px;
+  }
+
+  .city1 {
+    top: 390px;
+    left: 260px;
+  }
+
+  .city2 {
+    top: 410px;
+    left: 165px;
+  }
+
+  .city3 {
+    top: 410px;
+    left: 260px;
+  }
+
+  .city4 {
+    top: 450px;
+    left: 220px;
+  }
+
+  .city5 {
+    top: 430px;
+    left: 260px;
+  }
+
+  .city6 {
+    top: 430px;
+    left: 165px;
+  }
+
+
   .phone-number {
     //position: absolute;
     position: fixed;
-    top: 250px;
+    top: 240px;
     left: 150px;
     z-index: 2;
-    opacity: .7;
+    //opacity: .7;
     font-size: 30px;
-    background: white;
+    //background: white;
     padding: 4px;
   }
 
   .free-estimates {
     //position: absolute;
     position: fixed;
-    top: 313px;
+    top: 295px;
     left: 170px;
     z-index: 2;
-    opacity: .7;
+    //opacity: .7;
     font-size: 25px;
-    background: white;
+    //background: white;
     padding: 4px;
   }
 
   .saying {
     //position: absolute;
     position: fixed;
-    top: 370px;
+    top: 340px;
     left: 165px;
     z-index: 2;
-    opacity: .7;
+    //opacity: .7;
     font-size: 20px;
-    background: white;
+    //background: white;
     padding: 4px;
   }
 
@@ -274,7 +541,7 @@ menu {
   .splash_container {
      position: fixed;
      //position: relative;
-     height: 240px;
+     height: 235px;
      overflow: hidden;
      z-index: 1
   }
@@ -282,4 +549,29 @@ menu {
 
 .bottom-area {
   height: 800px;
+}
+
+
+//////////////////////////////home page//////////////////////////////
+
+.home-container {
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.home-title {
+  color: blue;
+  font-size: 14px;
+}
+
+.home-description {
+  width: 500px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  background: white;
+  border-radius: 7px;
+  font-size: 12px;
+  //opacity: .8;
 }

@@ -4,7 +4,7 @@ function Config ($stateProvider, $urlRouterProvider) {
      .state('home', {
        url: '/home',
        templateUrl: 'templates/home.tpl.html',
-       controller: 'HomeController',
+       controller: 'GreetController',
      })
     //  .state('page-not-found', {
     //    url: '/not-found',
