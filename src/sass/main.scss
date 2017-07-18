@@ -155,7 +155,7 @@ menu {
   font-size: 20px;
   position: fixed;
   top: 55px;
-  left: 750px;
+  left: 600px;
 }
 
 .city1 {
@@ -164,8 +164,8 @@ menu {
   color: white;
   font-size: 20px;
   position: fixed;
-  top: 80px;
-  left: 750px;
+  top: 55px;
+  left: 700px;
 }
 
 .city2 {
@@ -174,8 +174,8 @@ menu {
   color: white;
   font-size: 20px;
   position: fixed;
-  top: 105px;
-  left: 750px;
+  top: 55px;
+  left: 820px;
 }
 
 .city3 {
@@ -184,8 +184,8 @@ menu {
   color: white;
   font-size: 20px;
   position: fixed;
-  top: 130px;
-  left: 750px;
+  top: 55px;
+  left: 900px;
 }
 
 .city4 {
@@ -194,8 +194,8 @@ menu {
   color: white;
   font-size: 20px;
   position: fixed;
-  top: 155px;
-  left: 750px;
+  top: 85px;
+  left: 650px;
 }
 
 .city5 {
@@ -204,8 +204,8 @@ menu {
   color: white;
   font-size: 20px;
   position: fixed;
-  top: 180px;
-  left: 750px;
+  top: 85px;
+  left: 760px;
 }
 
 .city6 {
@@ -214,37 +214,44 @@ menu {
   color: white;
   font-size: 20px;
   position: fixed;
-  top: 205px;
-  left: 750px;
+  top: 85px;
+  left: 850px;
 }
 
 @media screen and (max-width: 1099px) {
     .city {
-      top: 25px;
+      top: 10px;
+      left: 680px;
     }
 
     .city1 {
-      top: 50px;
+      top: 100px;
+
     }
 
     .city2 {
-      top: 75px;
+      top: 10px;
+      left: 780px;
     }
 
     .city3 {
-      top: 100px;
+      top: 70px;
+      left: 680px;
     }
 
     .city4 {
-      top: 125px;
+      top: 70px;
+      left: 760px;
     }
 
     .city5 {
-      top: 150px;
+      top: 40px;
+      left: 775px;
     }
 
     .city6 {
-      top: 175px;
+      top: 40px;
+      left: 680px;
     }
 
     menu {
@@ -321,79 +328,95 @@ menu {
 @media screen and (max-width: 850px) {
   .city {
     top: 160px;
-    left: 525px;
+    left: 5px;
   }
 
   .city1 {
-    top: 220px;
-    left: 570px;
+    top: 160px;
+    left: 100px;
   }
 
   .city2 {
-    top: 180px;
-    left: 525px;
+    top: 160px;
+    left: 220px;
   }
 
   .city3 {
-    top: 180px;
-    left: 630px;
+    top: 160px;
+    left: 300px;
   }
 
   .city4 {
-    top: 200px;
-    left: 525px;
+    top: 160px;
+    left: 390px;
   }
 
   .city5 {
-    top: 200px;
-    left: 630px;
+    top: 160px;
+    left: 500px;
   }
 
   .city6 {
     top: 160px;
-    left: 630px;
+    left: 590px;
+  }
+
+  .splash_container {
+    height: 190px;
+  }
+
+  .spacer1 {
+    height: 183px;
   }
 
 }
 
 @media screen and (max-width: 683px) {
   .spacer1 {
-    height: 410px;
+    height: 210px;
   }
 
   .city {
-    top: 260px;
-    left: 325px;
+    font-size: 17px;
+    top: 193px;
+    left: 5px;
   }
 
   .city1 {
-    top: 320px;
-    left: 370px;
+
+    font-size: 17px;
+    top: 193px;
+    left: 80px;
   }
 
   .city2 {
-    top: 280px;
-    left: 325px;
+    font-size: 17px;
+    top: 193px;
+    left: 170px;
   }
 
   .city3 {
-    top: 280px;
-    left: 430px;
+    font-size: 17px;
+    top: 193px;
+    left: 235px;
   }
 
   .city4 {
-    top: 300px;
-    left: 325px;
+    font-size: 17px;
+    top: 193px;
+    left: 307px;
   }
 
   .city5 {
-    top: 300px;
-    left: 430px;
+    font-size: 17px;
+    top: 193px;
+    left: 392px;
   }
 
   .city6 {
-    top: 260px;
-    left: 430px;
+    font-size: 17px;
+    top: 193px;
+    left: 460px;
   }
 
   .phone-number {
@@ -437,7 +460,11 @@ menu {
   }
 
   .splash_container {
-    height: 200px;
+    height: 220px;
+  }
+
+  .spacer1 {
+    height: 220px;
   }
 }
 
@@ -449,42 +476,50 @@ menu {
   // }
 
   .spacer1 {
-    height: 380px;
+    height: 417px;
   }
 
   .city {
-    top: 390px;
-    left: 165px;
+    position: absolute;
+    top: 210px;
+    left: 8px;
   }
 
   .city1 {
-    top: 390px;
-    left: 260px;
+    position: absolute;
+    top: 210px;
+    left: 100px;
   }
 
   .city2 {
-    top: 410px;
-    left: 165px;
+    position: absolute;
+    top: 229px;
+    left: 78px;
   }
 
   .city3 {
-    top: 410px;
-    left: 260px;
+    position: absolute;
+    top: 229px;
+    left: 2px;
   }
 
   .city4 {
-    top: 450px;
-    left: 220px;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+
   }
 
   .city5 {
-    top: 430px;
-    left: 260px;
+    position: absolute;
+    top: 229px;
+    left: 150px;
   }
 
   .city6 {
-    top: 430px;
-    left: 165px;
+    position: absolute;
+    top: 229px;
+    left: 230px;
   }
 
 
@@ -552,6 +587,7 @@ menu {
   .logo {
     position: absolute;
   }
+
 }
 
 .bottom-area {
@@ -573,7 +609,7 @@ menu {
 }
 
 .home-description {
-  width: 500px;
+  width: 525px;
   margin-left: 10px;
   margin-top: 10px;
   padding: 5px;
@@ -581,4 +617,11 @@ menu {
   border-radius: 7px;
   font-size: 12px;
   //opacity: .8;
+}
+
+@media screen and (max-width: 535px){
+  .home-description {
+    width: auto;
+    margin-right: 10px;
+  }
 }
