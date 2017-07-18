@@ -47,18 +47,14 @@ div {
 .phone-number {
   position: fixed;
   font-weight: bold;
-  //position: absolute;
-  top: 60px;
-  left: 465px;
+  top: 40px;
+  left: 265px;
   z-index: 2;
-  //opacity: .7;
   font-size: 35px;
   font-family: 'Courgette', cursive;
-  //background: #398AF6;
   color: white;
   padding: 4px;
   text-shadow: 3px 3px #398AF6;
-  //box-shadow: 10px 10px 5px #398AF6;
 
   animation-name: menu;
   animation-duration: 2s;
@@ -68,21 +64,18 @@ div {
     from {//position: absolute;
       left: 870px;}
     to {  //position: absolute;
-      left: 465px;}
+      left: 265px;}
 }
 
 .free-estimates {
   position: fixed;
-  //position: absolute;
-  top: 125px;
-  left: 490px;
+  top: 85px;
+  left: 290px;
   z-index: 2;
-  //opacity: .7;
   font-size: 25px;
   font-family: 'Courgette', cursive;
   text-shadow: 2px 2px #398AF6;
   color: white;
-  //background: white;
   padding: 4px;
   animation-name: menu1;
   animation-duration: 3s;
@@ -92,18 +85,15 @@ div {
     from {//position: absolute;
       left: 870px;}
     to {  //position: absolute;
-      left: 490px;}
+      left: 290px;}
 }
 
 .saying {
-  //position: absolute;
   position: fixed;
-  top: 185px;
-  left: 485px;
+  top: 120px;
+  left: 285px;
   z-index: 2;
-  //opacity: .7;
   font-size: 20px;
-  //background: white;
   font-family: 'Courgette', cursive;
   text-shadow: 2px 2px #398AF6;
   color: white;
@@ -116,7 +106,7 @@ div {
     from {//position: absolute;
       left: 870px;}
     to { // position: absolute;
-      left: 485px;}
+      left: 285px;}
 }
 
 menu {
@@ -270,8 +260,8 @@ menu {
     .phone-number {
       //position: absolute;
       position: fixed;
-      top: 10px;
-      left: 505px;
+      top: 90px;
+      left: 265px;
       z-index: 2;
       //opacity: .7;
       font-size: 30px;
@@ -291,8 +281,8 @@ menu {
     .free-estimates {
       //position: absolute;
       position: fixed;
-      top: 70px;
-      left: 525px;
+      top: 95px;
+      left: 497px;
       z-index: 2;
       //opacity: .7;
       font-size: 25px;
@@ -310,14 +300,11 @@ menu {
     }
 
     .saying {
-      //position: absolute;
       position: fixed;
-      top: 125px;
-      left: 520px;
+      top: 129px;
+      left: 380px;
       z-index: 2;
-      //opacity: .7;
       font-size: 20px;
-      //background: white;
       padding: 4px;
       animation-name: menu2A;
       animation-duration: 2s;
@@ -412,8 +399,8 @@ menu {
   .phone-number {
     position: fixed;
     //position: absolute;
-    top: 230px;
-    left: 75px;
+    top: 155px;
+    left: 30px;
     z-index: 2;
     //opacity: .7;
     font-size: 30px;
@@ -424,8 +411,8 @@ menu {
   .free-estimates {
     position: fixed;
     //position: absolute;
-    top: 290px;
-    left: 95px;
+    top: 138px;
+    left: 300px;
     z-index: 2;
     //opacity: .7;
     font-size: 25px;
@@ -436,8 +423,8 @@ menu {
   .saying {
     position: fixed;
     //position: absolute;
-    top: 350px;
-    left: 90px;
+    top: 163px;
+    left: 295px;
     z-index: 2;
     //opacity: .7;
     font-size: 20px;
@@ -448,13 +435,21 @@ menu {
   menu {
     width: 300px;
   }
+
+  .splash_container {
+    height: 200px;
+  }
 }
 
 
 @media screen and (max-width: 535px){
 
+  // .menu {
+  //   position: absolute;
+  // }
+
   .spacer1 {
-    height: 310px;
+    height: 380px;
   }
 
   .city {
@@ -494,10 +489,10 @@ menu {
 
 
   .phone-number {
-    //position: absolute;
-    position: fixed;
-    top: 240px;
-    left: 150px;
+    position: absolute;
+    //position: fixed;
+    top: 125px;
+    left: 10px;
     z-index: 2;
     //opacity: .7;
     font-size: 30px;
@@ -506,10 +501,10 @@ menu {
   }
 
   .free-estimates {
-    //position: absolute;
-    position: fixed;
-    top: 295px;
-    left: 170px;
+    position: absolute;
+    //position: fixed;
+    top: 155px;
+    left: 35px;
     z-index: 2;
     //opacity: .7;
     font-size: 25px;
@@ -518,10 +513,10 @@ menu {
   }
 
   .saying {
-    //position: absolute;
-    position: fixed;
-    top: 340px;
-    left: 165px;
+    position: absolute;
+    //position: fixed;
+    top: 180px;
+    left: 55px;
     z-index: 2;
     //opacity: .7;
     font-size: 20px;
@@ -535,9 +530,9 @@ menu {
   }
 
   menu {
-    //position: absolute;
-    position: fixed;
-    top: 175px;
+    position: absolute;
+    //position: fixed;
+    top: 88px;
     left: 0px;
     z-index: 2;
     margin: 0px;
@@ -548,11 +543,14 @@ menu {
     opacity: 0;
   }
   .splash_container {
-     position: fixed;
-     //position: relative;
+     //position: fixed;
+     position: absolute;
      height: 315px;
      overflow: hidden;
      z-index: 1
+  }
+  .logo {
+    position: absolute;
   }
 }
 
