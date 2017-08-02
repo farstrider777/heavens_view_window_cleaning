@@ -131,6 +131,10 @@ menu {
   width: 125px;
 }
 
+.inline {
+  display: inline-block;
+}
+
 .menu-button:hover {
   color: orange;
 }
@@ -609,6 +613,10 @@ menu {
   font-size: 14px;
 }
 
+.home-description-container {
+  vertical-align: top;
+}
+
 .home-description {
   width: 525px;
   margin-left: 10px;
@@ -617,8 +625,32 @@ menu {
   background: white;
   border-radius: 7px;
   font-size: 12px;
-  //opacity: .8;
 }
+
+.family-container {
+  margin-top: 10px;
+  width: 41%;
+  text-align: center;
+}
+
+.family {
+  width: 350px;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 913px){
+  .family {
+    width: 250px;
+  }
+
+  .family-container {
+    margin-top: 10px;
+    width: 35%;
+    text-align: center;
+  }
+
+}
+
 
 @media screen and (max-width: 535px){
   .home-description {
