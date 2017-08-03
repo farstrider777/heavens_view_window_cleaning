@@ -1,5 +1,9 @@
 @import "bulma";
 
+// * {
+//   border: 1px dotted red;
+// }
+
 body {
   background-color: #398AF6;
 }
@@ -651,10 +655,35 @@ menu {
 
 }
 
+@media screen and (max-width: 829px){
+  .family {
+    margin-left: 10px;
+    width: auto;
+  }
 
-@media screen and (max-width: 535px){
+  .family-container {
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+}
+
+@media screen and (max-width: 545px){
   .home-description {
     width: auto;
     margin-right: 10px;
+  }
+
+  .family {
+    width: auto;
+    margin-right: 10px;
+    //padding-right: 10px;
+  }
+
+  .family-container {
+    width: auto;
+    margin-right: 10px;
+    padding-right: 10px;
   }
 }
